@@ -14,7 +14,6 @@ function SignUpForm() {
 
 	async function handleSubmit(e) {
 		e.preventDefault()
-
 		await fetch(`http://localhost:5000/users/`, {
 			method: 'POST',
 			headers: {
